@@ -1,17 +1,46 @@
-# git
+# Основы Git
 
-git --help
+## 1.4 Первый репозиторий 
 
-git config --global user.name veretennikovalexey
+git init создаёт локальный репозиторий в текущей папке
 
-git config --global user.email raidex@yandex.ru
+Появляется новая подпапка .git которая хранит информацию о коммитах
 
-git config --global color.ui true
+mkdir first_project
+
+ls
+
+cd first_project
+
+pwd
+
+ls -la
+
+git init
+
+cd .git
+
+cat config
+
+git config user.name veretennikovalexey
+
+git config --global user.name
+
+git config user.name
 
 git config --list
 
-git config user.name
-git config user.email
+git config list --global
+
+git config list --local
+
+cd -
+
+cd c:/Users/Pragmatic_Programmer
+
+cat .gitconfig
+
+## 1.5 Первый коммит
 
 git status
 
@@ -19,17 +48,28 @@ git log
 
 cat page1.html
 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>My first Heading</h1>
+        <p>My first paragraph.</p>
+        <p>My second paragraph.</p>
+    </body>
+</html>
+```
+
 git add page1.html
 
 git commit
 
-git config list
+## 1.6 Индекс
 
-git config core.editor nano
+Индекс или stage это шлюз между космосом и космическим кораблём
 
-git add .
+Один и тот же файл может быть модифицирован 2 раза, а в индекс может попасть только первое изменение
 
-git add page1.html
-
-git log --oneline
-
+git reset --hard
