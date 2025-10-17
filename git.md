@@ -73,3 +73,15 @@ git commit
 Один и тот же файл может быть модифицирован 2 раза, а в индекс может попасть только первое изменение
 
 git reset --hard
+
+# 1.7 Подробнее о коммитах
+
+git commit -a
+
+git commit --amend
+
+git show
+
+git show <commit_id>
+
+git show --name-only <commit_id>
