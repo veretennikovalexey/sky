@@ -85,3 +85,9 @@ git show
 git show <commit_id>
 
 git show --name-only <commit_id>
+
+git reset HEAD~1
+
+git commit -m "add some new features"
+
+git commit -am "add some new features"
