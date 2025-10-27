@@ -207,3 +207,53 @@ git mv *.html web_pages
 
 ## 1.11 Просмотр изменений
 
+git diff
+
+git difftool
+
+git diff --help
+
+git diff
+
+git diff HEAD
+
+git diff --staged
+git diff --cached
+
+git diff --word-diff
+
+git diff -w
+
+git diff HEAD~1
+
+git diff 8a8b14c
+
+git diff 8a8b14c b0272be
+
+git diff HEAD~1 web_pages/index.html
+
+git diff index.html page2.html
+
+git difftool --help
+
+git difftool 8a8b14c
+
+git show
+git diff HEAD~1
+
+git diff bea5ea0
+
+git show bea5ea0
+
+git show 0e47d61..ca3a6b1
+
+git diff 0e47d61..ca3a6b1
+git diff 0e47d61 ca3a6b1
+
+git show HEAD~1:styles/styles.css
+git diff HEAD~1 css/styles.css
+
+git show 4b2413e --name-only
+git show 55f77dc --name-only
+
+git diff 55f77dc --name-only
